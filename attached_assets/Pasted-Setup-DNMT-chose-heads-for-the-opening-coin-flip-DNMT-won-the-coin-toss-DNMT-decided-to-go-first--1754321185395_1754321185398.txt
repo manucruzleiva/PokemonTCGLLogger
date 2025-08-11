@@ -1,0 +1,164 @@
+Setup
+DNMT chose heads for the opening coin flip.
+DNMT won the coin toss.
+DNMT decided to go first.
+DNMT drew 7 cards for the opening hand.
+- 7 drawn cards.
+ArchShiero drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Redeemable Ticket, Gimmighoul, Basic Fighting Energy, Ciphermaniac's Codebreaking, Fezandipiti ex, Basic Lightning Energy, Basic Lightning Energy
+DNMT played Munkidori to the Active Spot.
+ArchShiero played Gimmighoul to the Active Spot.
+
+Turn # 1 - DNMT's Turn
+DNMT drew a card.
+DNMT played Nest Ball.
+- DNMT drew Frillish and played it to the Bench.
+- DNMT shuffled their deck.
+DNMT played Earthen Vessel.
+- DNMT discarded Ultra Ball.
+- DNMT drew 2 cards.
+   • Basic Darkness Energy, Basic Psychic Energy
+- DNMT shuffled their deck.
+DNMT played Ultra Ball.
+- DNMT discarded 2 cards.
+   • Basic Psychic Energy, Basic Darkness Energy
+- DNMT drew Ralts.
+- DNMT shuffled their deck.
+DNMT played Ralts to the Bench.
+DNMT played Super Rod.
+- DNMT shuffled 2 cards into their deck.
+   • Basic Darkness Energy, Basic Psychic Energy
+DNMT ended their turn.
+
+Turn # 2 - ArchShiero's Turn
+ArchShiero drew Basic Metal Energy.
+ArchShiero attached Basic Metal Energy to Gimmighoul in the Active Spot.
+ArchShiero played Ciphermaniac's Codebreaking.
+- ArchShiero shuffled their deck.
+ArchShiero ended their turn.
+
+Turn # 3 - DNMT's Turn
+DNMT drew a card.
+DNMT played Artazon to the Stadium spot.
+DNMT played Artazon.
+- DNMT drew Ralts and played it to the Bench.
+- DNMT shuffled their deck.
+DNMT evolved Ralts to Kirlia on the Bench.
+DNMT ended their turn.
+
+Turn # 4 - ArchShiero's Turn
+ArchShiero drew Genesect ex.
+ArchShiero played Genesect ex to the Bench.
+ArchShiero's Genesect ex used Metallic Signal.
+- ArchShiero drew 2 cards.
+   • Gholdengo ex, Gholdengo ex
+- ArchShiero shuffled their deck.
+ArchShiero evolved Gimmighoul to Gholdengo ex in the Active Spot.
+ArchShiero played Artazon.
+- DNMT drew Gimmighoul and played it to the Bench.
+- ArchShiero shuffled their deck.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Air Balloon.
+- ArchShiero drew Buddy-Buddy Poffin.
+ArchShiero played Buddy-Buddy Poffin.
+- ArchShiero drew 2 cards and played them to the Bench.
+   • Gimmighoul, Gimmighoul
+- ArchShiero shuffled their deck.
+ArchShiero's Gholdengo ex used Make It Rain on DNMT’s Munkidori for 150 damage.
+- Damage breakdown:
+   • 3 selected Energy: 150 damage
+
+- ArchShiero discarded 3 cards.
+   • Basic Lightning Energy, Basic Fighting Energy, Basic Lightning Energy
+DNMT's Munkidori was Knocked Out!
+ArchShiero took a Prize card.
+Gholdengo ex was added to ArchShiero's hand.
+DNMT's Frillish is now in the Active Spot.
+
+Turn # 5 - DNMT's Turn
+DNMT drew a card.
+DNMT evolved Ralts to Kirlia on the Bench.
+DNMT played Counter Catcher.
+- ArchShiero's Genesect ex was switched with ArchShiero's Gholdengo ex to become the Active Pokémon.
+ArchShiero's Genesect ex is now in the Active Spot.
+DNMT played Artazon.
+- DNMT drew Munkidori and played it to the Bench.
+- DNMT shuffled their deck.
+DNMT ended their turn.
+
+Turn # 6 - ArchShiero's Turn
+ArchShiero drew Night Stretcher.
+ArchShiero attached Air Balloon to Genesect ex in the Active Spot.
+ArchShiero retreated Genesect ex to the Bench.
+ArchShiero's Gholdengo ex is now in the Active Spot.
+ArchShiero evolved Gimmighoul to Gholdengo ex on the Bench.
+ArchShiero evolved Gimmighoul to Gholdengo ex on the Bench.
+ArchShiero's Genesect ex used Metallic Signal.
+- ArchShiero drew Gholdengo ex.
+- ArchShiero shuffled their deck.
+ArchShiero played Artazon.
+- DNMT drew Scyther and played it to the Bench.
+- ArchShiero shuffled their deck.
+ArchShiero evolved Gimmighoul to Gholdengo ex on the Bench.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Nest Ball.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Basic Metal Energy.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Basic Darkness Energy.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Earthen Vessel.
+- ArchShiero drew Iono.
+ArchShiero played Earthen Vessel.
+- ArchShiero discarded Redeemable Ticket.
+- ArchShiero drew 2 cards.
+   • Basic Metal Energy, Basic Psychic Energy
+- ArchShiero shuffled their deck.
+ArchShiero's Gholdengo ex used Make It Rain on DNMT’s Frillish for 100 damage.
+- Damage breakdown:
+   • 2 selected Energy: 100 damage
+
+- ArchShiero discarded 2 cards.
+   • Basic Psychic Energy, Basic Darkness Energy
+DNMT's Frillish was Knocked Out!
+ArchShiero took a Prize card.
+Genesect ex was added to ArchShiero's hand.
+DNMT's Kirlia is now in the Active Spot.
+
+Turn # 7 - DNMT's Turn
+DNMT drew a card.
+DNMT played Professor's Research.
+- DNMT drew 7 cards.
+DNMT played Artazon.
+- DNMT drew Frillish and played it to the Bench.
+- DNMT shuffled their deck.
+DNMT attached Basic Psychic Energy to Kirlia in the Active Spot.
+DNMT played Nest Ball.
+- DNMT drew Fezandipiti ex and played it to the Bench.
+- DNMT shuffled their deck.
+DNMT's Fezandipiti ex used Flip the Script.
+- DNMT drew 3 cards.
+DNMT retreated Kirlia to the Bench.
+- Basic Psychic Energy was discarded from DNMT's Kirlia.
+DNMT's Kirlia is now in the Active Spot.
+DNMT ended their turn.
+
+Turn # 8 - ArchShiero's Turn
+ArchShiero drew Arven.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Basic Water Energy.
+- ArchShiero drew Professor Turo's Scenario.
+ArchShiero's Genesect ex used Metallic Signal.
+- ArchShiero drew Scizor.
+- ArchShiero shuffled their deck.
+ArchShiero evolved Scyther to Scizor on the Bench.
+ArchShiero attached Basic Metal Energy to Scizor on the Bench.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Buddy-Buddy Poffin.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Buddy-Buddy Poffin.
+ArchShiero's Gholdengo ex used Coin Bonus.
+- ArchShiero drew Ciphermaniac's Codebreaking.
+Opponent conceded. ArchShiero wins.
+
