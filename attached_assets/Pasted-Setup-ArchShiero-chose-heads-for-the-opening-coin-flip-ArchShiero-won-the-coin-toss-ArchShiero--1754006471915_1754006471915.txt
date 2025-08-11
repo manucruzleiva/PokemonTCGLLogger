@@ -1,0 +1,250 @@
+Setup
+ArchShiero chose heads for the opening coin flip.
+ArchShiero won the coin toss.
+ArchShiero decided to go first.
+ArchShiero drew 7 cards for the opening hand.
+- 7 drawn cards.
+   • Air Balloon, Basic Lightning Energy, Fezandipiti ex, Squawkabilly ex, Basic Lightning Energy, Basic Lightning Energy, Boss's Orders
+sreyasy93 drew 7 cards for the opening hand.
+- 7 drawn cards.
+sreyasy93 took a mulligan.
+- Cards revealed from Mulligan 1
+   • Ethan's Adventure, Basic Fire Energy, Sacred Ash, Redeemable Ticket, Basic Fire Energy, Night Stretcher, Ethan's Quilava
+ArchShiero drew 1 more card because sreyasy93 took at least 1 mulligan.
+- ArchShiero drew Basic Lightning Energy.
+ArchShiero played Squawkabilly ex to the Active Spot.
+sreyasy93 played Victini to the Active Spot.
+
+Turn # 1 - ArchShiero's Turn
+ArchShiero drew Tynamo.
+ArchShiero played Tynamo to the Bench.
+ArchShiero attached Air Balloon to Squawkabilly ex in the Active Spot.
+ArchShiero's Squawkabilly ex used Squawk and Seize.
+- ArchShiero discarded 6 cards.
+   • Basic Lightning Energy, Fezandipiti ex, Basic Lightning Energy, Basic Lightning Energy, Boss's Orders, Basic Lightning Energy
+- ArchShiero drew 6 cards.
+   • Mew ex, Boss's Orders, Ultra Ball, Basic Lightning Energy, Professor's Research, Carmine
+ArchShiero played Ultra Ball.
+- ArchShiero discarded 2 cards.
+   • Boss's Orders, Professor's Research
+- ArchShiero drew Miraidon ex.
+- ArchShiero shuffled their deck.
+ArchShiero played Miraidon ex to the Bench.
+ArchShiero played Mew ex to the Bench.
+ArchShiero's Miraidon ex used Tandem Unit.
+- ArchShiero drew 2 cards and played them to the Bench.
+   • Iron Hands ex, Iron Hands ex
+- ArchShiero shuffled their deck.
+ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+ArchShiero's Mew ex used Restart.
+- ArchShiero drew 2 cards.
+   • Basic Lightning Energy, Electric Generator
+ArchShiero played Electric Generator.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+- ArchShiero shuffled their deck.
+ArchShiero played Carmine.
+- ArchShiero discarded Basic Lightning Energy.
+- ArchShiero drew 5 cards.
+   • Eelektrik, Ultra Ball, Ultra Ball, Air Balloon, Zeraora
+ArchShiero attached Air Balloon to Miraidon ex on the Bench.
+ArchShiero played Ultra Ball.
+- ArchShiero discarded 2 cards.
+   • Zeraora, Ultra Ball
+- ArchShiero drew Eelektrik.
+- ArchShiero shuffled their deck.
+ArchShiero retreated Squawkabilly ex to the Bench.
+ArchShiero's Iron Hands ex is now in the Active Spot.
+ArchShiero ended their turn.
+
+Turn # 2 - sreyasy93's Turn
+sreyasy93 drew a card.
+sreyasy93 played Buddy-Buddy Poffin.
+- sreyasy93 drew 2 cards and played them to the Bench.
+   • Ethan's Cyndaquil, Pidgey
+- sreyasy93 shuffled their deck.
+sreyasy93 played Arven.
+- sreyasy93 drew 2 cards.
+   • Buddy-Buddy Poffin, Technical Machine: Evolution
+- sreyasy93 shuffled their deck.
+sreyasy93 played Buddy-Buddy Poffin.
+- sreyasy93 drew 2 cards and played them to the Bench.
+   • Ethan's Cyndaquil, Pidgey
+- sreyasy93 shuffled their deck.
+sreyasy93 ended their turn.
+
+Turn # 3 - ArchShiero's Turn
+ArchShiero drew Electric Generator.
+ArchShiero evolved Tynamo to Eelektrik on the Bench.
+ArchShiero's Mew ex used Restart.
+- ArchShiero drew Future Booster Energy Capsule.
+ArchShiero attached Future Booster Energy Capsule to Iron Hands ex in the Active Spot.
+ArchShiero played Electric Generator.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+- ArchShiero shuffled their deck.
+ArchShiero's Eelektrik used Dynamotor.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+ArchShiero's Iron Hands ex used Arm Press on sreyasy93’s Victini for 180 damage.
+- Damage breakdown:
+   • Base damage: 160 damage
+   • (Pokémon Tool) Future Booster Energy Capsule: 20 damage
+   • Total damage: 180 damage
+
+sreyasy93's Victini was Knocked Out!
+ArchShiero took a Prize card.
+Night Stretcher was added to ArchShiero's hand.
+sreyasy93's Pidgey is now in the Active Spot.
+
+Turn # 4 - sreyasy93's Turn
+sreyasy93 drew a card.
+sreyasy93 played Ethan's Adventure.
+- sreyasy93 drew 3 cards.
+   • Ethan's Quilava, Ethan's Quilava, Ethan's Cyndaquil
+- sreyasy93 shuffled their deck.
+sreyasy93 evolved Ethan's Cyndaquil to Ethan's Quilava on the Bench.
+sreyasy93 evolved Ethan's Cyndaquil to Ethan's Quilava on the Bench.
+sreyasy93 played Ethan's Cyndaquil to the Bench.
+sreyasy93's Ethan's Quilava used Bonded by the Journey.
+- sreyasy93 drew Ethan's Adventure.
+- sreyasy93 shuffled their deck.
+sreyasy93's Ethan's Quilava used Bonded by the Journey.
+- sreyasy93 drew Ethan's Adventure.
+- sreyasy93 shuffled their deck.
+sreyasy93 played Counter Catcher.
+- ArchShiero's Eelektrik was switched with ArchShiero's Iron Hands ex to become the Active Pokémon.
+ArchShiero's Eelektrik is now in the Active Spot.
+sreyasy93 played Ultra Ball.
+- sreyasy93 discarded 2 cards.
+   • Technical Machine: Evolution, Ethan's Adventure
+- sreyasy93 drew Pidgeotto.
+- sreyasy93 shuffled their deck.
+sreyasy93 evolved Pidgey to Pidgeotto on the Bench.
+sreyasy93 ended their turn.
+
+Turn # 5 - ArchShiero's Turn
+ArchShiero drew Pokégear 3.0.
+ArchShiero's Eelektrik used Dynamotor.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+ArchShiero played Pokégear 3.0.
+- ArchShiero drew Professor's Research.
+- ArchShiero shuffled their deck.
+ArchShiero played Night Stretcher.
+- ArchShiero moved ArchShiero's Basic Lightning Energy to their hand.
+ArchShiero attached Basic Lightning Energy to Eelektrik in the Active Spot.
+ArchShiero played Professor's Research.
+- ArchShiero discarded Eelektrik.
+- ArchShiero drew 7 cards.
+   • Professor's Research, Electric Generator, Carmine, Ultra Ball, Nest Ball, Boss's Orders, Nest Ball
+ArchShiero played Electric Generator.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+- ArchShiero shuffled their deck.
+ArchShiero played Ultra Ball.
+- ArchShiero discarded 2 cards.
+   • Nest Ball, Nest Ball
+- ArchShiero drew Miraidon ex.
+- ArchShiero shuffled their deck.
+ArchShiero ended their turn.
+
+Turn # 6 - sreyasy93's Turn
+sreyasy93 drew a card.
+sreyasy93 played Ethan's Adventure.
+- sreyasy93 drew 3 cards.
+   • Basic Fire Energy, Basic Fire Energy, Ethan's Quilava
+- sreyasy93 shuffled their deck.
+sreyasy93 evolved Ethan's Cyndaquil to Ethan's Quilava on the Bench.
+sreyasy93 evolved Ethan's Quilava to Ethan's Typhlosion on the Bench.
+sreyasy93 evolved Ethan's Quilava to Ethan's Typhlosion on the Bench.
+sreyasy93 played Ultra Ball.
+- sreyasy93 discarded 2 cards.
+   • Basic Fire Energy, Ethan's Typhlosion
+- sreyasy93 drew Pidgeot ex.
+- sreyasy93 shuffled their deck.
+sreyasy93 evolved Pidgeotto to Pidgeot ex on the Bench.
+sreyasy93's Pidgeot ex used Quick Search.
+- sreyasy93 drew a card.
+- sreyasy93 shuffled their deck.
+sreyasy93 attached Basic Fire Energy to Ethan's Typhlosion on the Bench.
+sreyasy93 ended their turn.
+
+Turn # 7 - ArchShiero's Turn
+ArchShiero drew Carmine.
+ArchShiero played Professor's Research.
+- ArchShiero discarded 4 cards.
+   • Carmine, Boss's Orders, Miraidon ex, Carmine
+- ArchShiero drew 7 cards.
+   • Switch, Boss's Orders, Electric Generator, Carmine, Night Stretcher, Basic Lightning Energy, Pokégear 3.0
+ArchShiero's Eelektrik used Dynamotor.
+- ArchShiero attached Basic Lightning Energy to Iron Hands ex on the Bench.
+ArchShiero attached Basic Lightning Energy to Eelektrik in the Active Spot.
+ArchShiero retreated Eelektrik to the Bench.
+- 2 cards were discarded from ArchShiero's Eelektrik.
+   • Basic Lightning Energy, Basic Lightning Energy
+ArchShiero's Iron Hands ex is now in the Active Spot.
+ArchShiero played Electric Generator.
+- ArchShiero shuffled their deck.
+ArchShiero's Iron Hands ex used Amp You Very Much on sreyasy93’s Pidgey for 280 damage. sreyasy93's Pidgey took 140 more damage because of Lightning Weakness.
+- Damage breakdown:
+   • Base damage: 120 damage
+   • (Pokémon Tool) Future Booster Energy Capsule: 20 damage
+   • Weakness to Lightning: 140 damage
+   • Total damage: 280 damage
+
+sreyasy93's Pidgey was Knocked Out!
+ArchShiero took 2 Prize cards.
+Eelektrik was added to ArchShiero's hand.
+Tynamo was added to ArchShiero's hand.
+sreyasy93's Ethan's Typhlosion is now in the Active Spot.
+
+Turn # 8 - sreyasy93's Turn
+sreyasy93 drew a card.
+sreyasy93's Pidgeot ex used Quick Search.
+- sreyasy93 drew a card.
+- sreyasy93 shuffled their deck.
+sreyasy93 played Night Stretcher.
+- sreyasy93 moved sreyasy93's Ethan's Typhlosion to their hand.
+sreyasy93 evolved Ethan's Quilava to Ethan's Typhlosion on the Bench.
+sreyasy93 played Professor's Research.
+- sreyasy93 discarded Boss's Orders.
+- sreyasy93 drew 7 cards.
+sreyasy93 played Ultra Ball.
+- sreyasy93 discarded 2 cards.
+   • Technical Machine: Evolution, Gravity Mountain
+- sreyasy93 drew Ethan's Quilava.
+- sreyasy93 shuffled their deck.
+sreyasy93 played Counter Catcher.
+- ArchShiero's Miraidon ex was switched with ArchShiero's Iron Hands ex to become the Active Pokémon.
+ArchShiero's Miraidon ex is now in the Active Spot.
+sreyasy93's Ethan's Typhlosion used Buddy Blast on ArchShiero’s Miraidon ex for 220 damage.
+- Damage breakdown:
+   • Base damage: 40 damage
+   • (3) cards in discard pile: 180 damage
+   • Total damage: 220 damage
+
+ArchShiero's Miraidon ex was Knocked Out!
+Air Balloon was discarded from ArchShiero's Miraidon ex.
+sreyasy93 took 2 Prize cards.
+A card was added to sreyasy93's hand.
+A card was added to sreyasy93's hand.
+ArchShiero's Iron Hands ex is now in the Active Spot.
+
+Turn # 9 - ArchShiero's Turn
+ArchShiero drew Prime Catcher.
+ArchShiero played Boss's Orders.
+- sreyasy93's Pidgeot ex was switched with sreyasy93's Ethan's Typhlosion to become the Active Pokémon.
+sreyasy93's Pidgeot ex is now in the Active Spot.
+ArchShiero's Iron Hands ex used Amp You Very Much on sreyasy93’s Pidgeot ex for 280 damage. sreyasy93's Pidgeot ex took 140 more damage because of Lightning Weakness.
+- Damage breakdown:
+   • Base damage: 120 damage
+   • (Pokémon Tool) Future Booster Energy Capsule: 20 damage
+   • Weakness to Lightning: 140 damage
+   • Total damage: 280 damage
+
+sreyasy93's Pidgeot ex was Knocked Out!
+- 2 cards were discarded from sreyasy93's Pidgeot ex.
+   • Pidgeotto, Pidgey
+ArchShiero took 3 Prize cards.
+Tynamo was added to ArchShiero's hand.
+Zekrom ex was added to ArchShiero's hand.
+Basic Lightning Energy was added to ArchShiero's hand.
+All Prize cards taken. ArchShiero wins.
+
