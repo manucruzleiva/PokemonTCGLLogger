@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(0, 0%, 98%);
+  --muted-foreground: hsl(0, 0%, 62%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(0, 0%, 88%);
+  --input: hsl(0, 0%, 88%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(0, 0%, 96%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(0, 0%, 96%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom Material Design colors */
+  --primary-dark: hsl(212, 85%, 48%);
+  --success: hsl(122, 42%, 42%);
+  --warning: hsl(35, 100%, 47%);
+  --error: hsl(4, 66%, 51%);
+  --surface: hsl(0, 0%, 98%);
+  --surface-variant: hsl(0, 0%, 96%);
+  --outline: hsl(0, 0%, 88%);
+  --on-surface: hsl(0, 0%, 26%);
+  --on-surface-variant: hsl(0, 0%, 62%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  
+  /* Custom Material Design dark colors */
+  --primary-dark: hsl(210, 85%, 58%);
+  --success: hsl(122, 45%, 52%);
+  --warning: hsl(35, 100%, 57%);
+  --error: hsl(4, 70%, 61%);
+  --surface: hsl(240, 6%, 10%);
+  --surface-variant: hsl(240, 5%, 15%);
+  --outline: hsl(240, 3.7%, 15.9%);
+  --on-surface: hsl(0, 0%, 90%);
+  --on-surface-variant: hsl(240, 5%, 64.9%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  html {
+    transition: background-color 0.3s ease;
+  }
+}
+
+/* Material Design inspired utilities */
+.bg-primary-dark {
+  background-color: hsl(var(--primary-dark));
+}
+
+.bg-success {
+  background-color: hsl(var(--success));
+}
+
+.bg-warning {
+  background-color: hsl(var(--warning));
+}
+
+.bg-error {
+  background-color: hsl(var(--error));
+}
+
+.bg-surface {
+  background-color: hsl(var(--surface));
+}
+
+.bg-surface-variant {
+  background-color: hsl(var(--surface-variant));
+}
+
+.text-primary-dark {
+  color: hsl(var(--primary-dark));
+}
+
+.text-success {
+  color: hsl(var(--success));
+}
+
+.text-warning {
+  color: hsl(var(--warning));
+}
+
+.text-error {
+  color: hsl(var(--error));
+}
+
+.text-on-surface {
+  color: hsl(var(--on-surface));
+}
+
+.text-on-surface-variant {
+  color: hsl(var(--on-surface-variant));
+}
+
+.border-outline {
+  border-color: hsl(var(--outline));
+}
+
+.hover\:bg-primary-dark:hover {
+  background-color: hsl(var(--primary-dark));
+}
+
+.hover\:text-primary-dark:hover {
+  color: hsl(var(--primary-dark));
+}
+
+/* Theme transition utilities */
+.theme-transition {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Dark mode surface improvements */
+.dark .bg-white {
+  background-color: hsl(var(--card));
+}
+
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dark .border-outline {
+  border-color: hsl(var(--border));
+}
