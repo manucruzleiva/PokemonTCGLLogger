@@ -12,7 +12,7 @@
 
 *Transforma tus logs de partidas en insights estratégicos con análisis automático avanzado*
 
-[🚀 Demo en Vivo](https://replit.com/@manucruzleiva/PokemonTCGLLogger) • [📖 Documentación](#documentación) • [🐛 Reportar Bug](https://github.com/manucruzleiva/PokemonTCGLLogger/issues)
+[🚀 Demo en Vivo](https://pkmntcgldb.replit.app) • [📖 Documentación](#documentación) • [🐛 Reportar Bug](https://github.com/manucruzleiva/PokemonTCGLLogger/issues)
 
 </div>
 
@@ -451,9 +451,8 @@ Este proyecto está bajo la **Licencia MIT** - consulta el archivo [LICENSE](LIC
 **👨‍💻 Desarrollador Principal**  
 **Manuel Cruz** - [@manucruzleiva](https://github.com/manucruzleiva)
 
-**📧 Email**: shieromanu@gmail.com  
 **🔗 Proyecto**: [PokemonTCGLLogger](https://github.com/manucruzleiva/PokemonTCGLLogger)  
-**🚀 Demo**: [Ver Aplicación](https://replit.com/@manucruzleiva/PokemonTCGLLogger)
+**🚀 Demo**: [Ver Aplicación](https://pkmntcgldb.replit.app)
 
 ---
 
