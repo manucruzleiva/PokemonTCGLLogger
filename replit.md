@@ -6,11 +6,11 @@ Pokémon Trainer Academia is a repository application for Pokémon TCG Live matc
 
 Preferred communication style: Simple, everyday language.
 
-# Recent Changes (August 11, 2025)
+# Recent Changes (August 11-12, 2025)
 - ✅ **Win Condition Tracking**: Added `winCondition` database column and parser logic to extract why players won matches (Prize cards, Opponent conceded, Deck out, etc.)
 - ✅ **Enhanced Match Parser**: Completely rewritten card extraction algorithm to capture ALL cards used by both players, including Pokemon, trainers, items, supporters, stadiums, and energy cards
 - ✅ **Comprehensive Card Detection**: Improved pattern matching for 7 different card usage patterns (played, used, attached, evolved, searched, drew, abilities)  
-- ✅ **Database Re-parsing**: Successfully re-parsed all 67 existing matches with enhanced parser, extracting significantly more card data + win conditions
+- ✅ **Database Re-parsing**: Successfully re-parsed all 68 existing matches with enhanced parser, extracting significantly more card data + win conditions
 - ✅ **Complete Pokemon Extraction**: Removed artificial limits on Pokemon extraction - now captures all Pokemon mentioned in match logs
 - ✅ **Card Code Cleanup**: Parser now removes card codes (like sv10_185, PAL 123) from card names for cleaner data across all statistics displays
 - ✅ **Pokemon Image Integration**: Added PokeAPI integration to display Pokemon images alongside names in statistics pages using official sprites
@@ -21,6 +21,12 @@ Preferred communication style: Simple, everyday language.
 - ✅ **Complete Stats Page**: Created new /stats route with full statistical analysis including top 15 players, cards, Pokemon, recent activity, and comprehensive metrics
 - ✅ **Damage Metrics Removal**: Completely removed average damage and damage record metrics from both statistics pages per user request
 - ✅ **Blacklist System Implementation**: Added filtering system excluding "Earthen Vessel" from Pokemon statistics and all basic energies from card statistics
+- ✅ **GitHub Repository Migration**: Successfully migrated complete project to GitHub at https://github.com/manucruzleiva/PokemonTCGLLogger
+- ✅ **Professional Documentation**: Created comprehensive README.md with detailed installation, usage, and contribution guidelines
+- ✅ **Project Setup Files**: Added .env.example template and complete project structure documentation
+- ✅ **Final Win Condition Re-parse**: Corrected all 68 matches with accurate win conditions (35 Concede, 32 Prize cards, 1 Deck out)
+- ✅ **Ran Out of Pokemon Detection**: Added detection for 4th win condition and found 4 new matches with this condition (33 Concede, 30 Prize cards, 4 Ran out of pokemon, 1 Deck out)
+- ✅ **README.md Privacy Update**: Removed email contact information and updated demo URL to pkmntcgldb.replit.app
 
 # System Architecture
 
