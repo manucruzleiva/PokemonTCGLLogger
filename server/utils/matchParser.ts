@@ -327,8 +327,8 @@ export function parseMatchLog(logText: string): ParsedMatch {
           }
         }
       }
-    } else if (lowerLine.includes('ran out of pokemon') || lowerLine.includes('no pokemon left') || lowerLine.includes('all pokemon knocked out')) {
-      winCondition = 'Ran out of pokemon in bench';
+    } else if (lowerLine.includes('knocked out with no benched pokémon') || lowerLine.includes('ran out of pokemon') || lowerLine.includes('no pokemon left') || lowerLine.includes('all pokemon knocked out') || lowerLine.includes('no benched pokémon')) {
+      winCondition = 'Ran out of pokemon';
       const winnerMatch = line.match(/(\w+) wins\./);
       if (winnerMatch) {
         winner = winnerMatch[1];
