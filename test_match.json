@@ -1,0 +1,19 @@
+{
+  "testMatchAnalysis": {
+    "players": ["DNMT", "ArchShiero"],
+    "pokemonFound": {
+      "DNMT": ["Munkidori", "Frillish", "Ralts", "Kirlia", "Gimmighoul"],
+      "ArchShiero": ["Gimmighoul", "Genesect ex", "Gholdengo ex"]
+    },
+    "trainerCards": {
+      "DNMT": ["Nest Ball", "Earthen Vessel", "Ultra Ball", "Artazon", "Super Rod"],
+      "ArchShiero": ["Ciphermaniac's Codebreaking", "Artazon", "Buddy-Buddy Poffin", "Air Balloon"]
+    },
+    "classification": {
+      "pokemon": ["Munkidori", "Frillish", "Ralts", "Kirlia", "Gimmighoul", "Genesect ex", "Gholdengo ex"],
+      "trainer": ["Nest Ball", "Earthen Vessel", "Ultra Ball", "Artazon", "Super Rod", "Ciphermaniac's Codebreaking", "Buddy-Buddy Poffin", "Air Balloon"],
+      "abilities": ["Metallic Signal", "Coin Bonus", "Make It Rain"],
+      "attacks": ["Make It Rain on DNMT's Munkidori for 150 damage"]
+    }
+  }
+}
