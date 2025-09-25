@@ -51,8 +51,8 @@ export default function CardImage({
     return data as CardImageData;
   };
 
-  const query = useQuery({
-    queryKey: ["/api/pokemon-card", cardName],
+  const query = useQuery<CardImageData>({
+    queryKey: ["/api/pokemon-card", cardName] as const,
     queryFn: fetchCard,
     enabled: !imageUrl && !!cardName,
     staleTime: 24 * 60 * 60 * 1000,

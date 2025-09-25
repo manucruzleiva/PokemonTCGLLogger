@@ -22,7 +22,7 @@ interface PokemonResponse {
 }
 
 export default function PokemonReport() {
-  const { data: pokemonData, isLoading, error } = useQuery<PokemonResponse, Error>({
+  const { data: pokemonData, isLoading, error } = useQuery<PokemonResponse>({
     queryKey: ['/api/pokemon/complete-report'],
     queryFn: async () => {
       const response = await fetch('/api/pokemon/complete-report');
