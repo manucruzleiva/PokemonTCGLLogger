@@ -283,14 +283,14 @@ export default function StatisticsPage() {
             <CardContent>
               <div className="space-y-3">
                 {Object.entries(winConditions)
-                  .sort(([,a], [,b]) => b - a)
+                  .sort(([,a], [,b]) => (b as number) - (a as number))
                   .map(([condition, count]) => (
                     <div key={condition} className="flex items-center justify-between p-3 bg-surface-variant rounded-lg">
                       <p className="font-medium text-on-surface">{condition}</p>
                       <div className="text-right">
-                        <p className="font-bold text-lg text-primary">{count}</p>
+                        <p className="font-bold text-lg text-primary">{count as number}</p>
                         <p className="text-xs text-on-surface-variant">
-                          {((count / matches.length) * 100).toFixed(1)}%
+                          {(((count as number) / matches.length) * 100).toFixed(1)}%
                         </p>
                       </div>
                     </div>

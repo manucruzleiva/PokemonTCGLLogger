@@ -1,7 +1,8 @@
-import { sql, relations } from "drizzle-orm";
-import { pgTable, text, varchar, timestamp, integer, index, jsonb } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
+import { pgTable, varchar, text, integer, timestamp, jsonb, index } from 'drizzle-orm/pg-core';
+import { sql } from 'drizzle-orm';
+import { relations } from 'drizzle-orm';
+import { createInsertSchema } from 'drizzle-zod';
 
 export const matches = pgTable("matches", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
@@ -42,25 +43,49 @@ export const decks = pgTable("decks", {
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
-export const insertMatchSchema = createInsertSchema(matches).omit({
-  id: true,
-  uploadedAt: true,
+export const insertMatchSchema = z.object({
+  title: z.string(),
+  player1: z.string(),
+  player2: z.string(),
+  winner: z.string(),
+  firstPlayer: z.string().nullable(),
+  turns: z.number(),
+  player1Pokemon: z.array(z.string()),
+  player2Pokemon: z.array(z.string()),
+  player1Cards: z.array(z.string()),
+  player2Cards: z.array(z.string()),
+  player1Prizes: z.number(),
+  player2Prizes: z.number(),
+  player1TotalDamage: z.number(),
+  player2TotalDamage: z.number(),
+  attacksUsed: z.array(z.any()),
+  winCondition: z.string().nullable(),
+  uploader: z.string().nullable(),
+  fullLog: z.string(),
+  notes: z.string(),
+  tags: z.array(z.string()),
+  fileSize: z.number(),
 });
 
-export const updateMatchSchema = insertMatchSchema.pick({
-  title: true,
-  notes: true,
-  tags: true,
-  player1Pokemon: true,
-  player2Pokemon: true,
-  player1Cards: true,
-  player2Cards: true,
-  winCondition: true,
-});
+export const updateMatchSchema = z.object({
+  title: z.string(),
+  notes: z.string(),
+  tags: z.array(z.string()),
+  player1Pokemon: z.array(z.string()),
+  player2Pokemon: z.array(z.string()),
+  player1Cards: z.array(z.string()),
+  player2Cards: z.array(z.string()),
+  winCondition: z.string().nullable(),
+}).partial();
 
-export const insertDeckSchema = createInsertSchema(decks).omit({
-  id: true,
-  createdAt: true,
+export const insertDeckSchema = z.object({
+  matchId: z.string(),
+  playerName: z.string(),
+  pokemonCards: z.array(z.string()),
+  trainerCards: z.array(z.string()),
+  energyCards: z.array(z.string()),
+  totalCards: z.number(),
+  deckList: z.string(),
 });
 
 export const deckImportSchema = z.object({
@@ -104,7 +129,7 @@ export const sessions = pgTable(
     sess: jsonb("sess").notNull(),
     expire: timestamp("expire").notNull(),
   },
-  (table) => [index("IDX_session_expire").on(table.expire)],
+  (table) => ({ indexes: [index("IDX_session_expire").on(table.expire)] }),
 );
 
 // User storage table.

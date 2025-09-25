@@ -10,14 +10,27 @@ interface PokemonData {
   imageUrl: string | null;
 }
 
-interface PokemonResponse {
+interface PokemonSummary {
   totalUniquePokemon: number;
-  pokemon: PokemonData[];
+  totalMatches: number;
+  totalPlayers: number;
+}
+
+interface PokemonResponse {
+  summary: PokemonSummary;
+  allPokemon: PokemonData[];
 }
 
 export default function PokemonReport() {
-  const { data: pokemonData, isLoading, error } = useQuery<any>({
+  const { data: pokemonData, isLoading, error } = useQuery<PokemonResponse, Error>({
     queryKey: ['/api/pokemon/complete-report'],
+    queryFn: async () => {
+      const response = await fetch('/api/pokemon/complete-report');
+      if (!response.ok) {
+        throw new Error('Failed to fetch Pokemon data');
+      }
+      return response.json();
+    }
   });
 
   if (error) {

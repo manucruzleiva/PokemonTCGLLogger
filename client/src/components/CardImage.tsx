@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Loader2, Image as ImageIcon } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
+import type { PokemonType, TrainerCategory, CardImageData } from "@/types/card";
 
 interface CardImageProps {
   cardName: string;
@@ -12,8 +13,8 @@ interface CardImageProps {
   isTrainer?: boolean;
   isPokemon?: boolean;
   isEnergy?: boolean;
-  trainerCategory?: string;
-  pokemonType?: string;
+  trainerCategory?: TrainerCategory;
+  pokemonType?: PokemonType;
   count?: number;
   winRate?: number;
   showStats?: boolean;
@@ -41,33 +42,36 @@ export default function CardImage({
   const [imageError, setImageError] = useState(false);
   const [showLarge, setShowLarge] = useState(false);
 
-  // Fetch card image from Pokemon TCG API if no imageUrl provided
-  const { data: cardData, isLoading: isCardDataLoading, error: cardDataError } = useQuery<{
-    name: string;
-    imageUrl: string | null;
-    largeImageUrl: string | null;
-    cardId: string;
-    set: string | null;
-    rarity: string | null;
-    type: string | null;
-  }>({
+  const fetchCard = async () => {
+    const response = await fetch(`/api/pokemon-card?name=${encodeURIComponent(cardName)}`);
+    if (!response.ok) {
+      throw new Error("Failed to fetch card data");
+    }
+    const data = await response.json();
+    return data as CardImageData;
+  };
+
+  const query = useQuery({
     queryKey: ["/api/pokemon-card", cardName],
+    queryFn: fetchCard,
     enabled: !imageUrl && !!cardName,
-    staleTime: 24 * 60 * 60 * 1000, // Cache for 24 hours
-    gcTime: 24 * 60 * 60 * 1000, // Keep in cache for 24 hours
+    staleTime: 24 * 60 * 60 * 1000,
+    gcTime: 24 * 60 * 60 * 1000,
     retry: 1,
     refetchOnWindowFocus: false,
     refetchOnMount: false
   });
 
-  // Removed debug logging for production
+  const cardData = query.data;
+  const isCardDataLoading = query.isLoading;
+  const cardDataError = query.error;
 
   const finalImageUrl = imageUrl || cardData?.imageUrl;
   const finalLargeImageUrl = largeImageUrl || cardData?.largeImageUrl;
 
   const sizeClasses = {
     small: "w-full h-full",
-    medium: "w-32 h-44", 
+    medium: "w-32 h-44",
     large: "w-40 h-56"
   };
 
@@ -75,7 +79,7 @@ export default function CardImage({
     if (isPokemon) {
       const typeColors: Record<string, string> = {
         Fire: "bg-red-500",
-        Water: "bg-blue-500", 
+        Water: "bg-blue-500",
         Grass: "bg-green-500",
         Electric: "bg-yellow-500",
         Psychic: "bg-purple-500",
@@ -88,17 +92,17 @@ export default function CardImage({
       };
       return typeColors[pokemonType || "Colorless"] || "bg-gray-400";
     }
-    
+
     if (isTrainer) {
       const trainerColors: Record<string, string> = {
         Supporter: "bg-blue-600",
         Item: "bg-green-600",
         Stadium: "bg-purple-600",
-        "Pokémon Tool": "bg-orange-600"
+        "Pok�mon Tool": "bg-orange-600"
       };
       return trainerColors[trainerCategory || "Item"] || "bg-gray-600";
     }
-    
+
     if (isEnergy) return "bg-yellow-600";
     return "bg-gray-500";
   };
@@ -129,7 +133,7 @@ export default function CardImage({
                 <Loader2 className="w-6 h-6 animate-spin text-gray-400" />
               </div>
             )}
-            
+
             {finalImageUrl && !imageError ? (
               <img
                 src={finalImageUrl}
@@ -150,17 +154,16 @@ export default function CardImage({
                 )}
               </div>
             )}
-            
-            {/* Card type indicator */}
+
             <div className={`absolute top-1 right-1 w-3 h-3 rounded-full ${getCardTypeColor()}`} />
           </div>
-          
+
           {showStats && (
             <div className="space-y-1">
               <h4 className="text-sm font-medium truncate" title={cardName}>
                 {cardName}
               </h4>
-              
+
               <div className="flex flex-wrap gap-1">
                 {isPokemon && pokemonType && (
                   <Badge variant="secondary" className="text-xs">
@@ -178,16 +181,16 @@ export default function CardImage({
                   </Badge>
                 )}
               </div>
-              
+
               {count !== undefined && (
                 <div className="text-xs text-gray-600 dark:text-gray-400">
                   Usado: {count} veces
                 </div>
               )}
-              
+
               {winRate !== undefined && (
                 <div className="text-xs">
-                  <span className={`${winRate >= 60 ? 'text-green-600' : winRate >= 40 ? 'text-yellow-600' : 'text-red-600'}`}>
+                  <span className={`${winRate >= 60 ? "text-green-600" : winRate >= 40 ? "text-yellow-600" : "text-red-600"}`}>
                     {winRate.toFixed(1)}% victorias
                   </span>
                 </div>
@@ -197,9 +200,8 @@ export default function CardImage({
         </CardContent>
       </Card>
 
-      {/* Large image modal */}
       {showLarge && finalLargeImageUrl && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
           onClick={() => setShowLarge(false)}
         >
@@ -216,7 +218,7 @@ export default function CardImage({
               <h3 className="font-medium">{cardName}</h3>
               {showStats && count !== undefined && winRate !== undefined && (
                 <p className="text-sm">
-                  {count} usos • {winRate.toFixed(1)}% victorias
+                  {count} usos  {winRate.toFixed(1)}% victorias
                 </p>
               )}
             </div>

@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Target, Trophy, TrendingUp, Database, Zap, Shield, Gamepad2 } from "lucide-react";
 import CardImage from "./CardImage";
+import type { PokemonType, TrainerCategory } from "@/types/card";
 
 interface EnhancedCardStats {
   name: string;
@@ -253,8 +254,8 @@ export default function CardAnalysisSection() {
                   isTrainer={card.isTrainer}
                   isPokemon={card.isPokemon}
                   isEnergy={card.isEnergy}
-                  trainerCategory={card.trainerCategory}
-                  pokemonType={card.pokemonType}
+                  trainerCategory={card.trainerCategory as TrainerCategory}
+                  pokemonType={card.pokemonType as PokemonType}
                   count={card.count}
                   winRate={card.winRate}
                   showStats={true}

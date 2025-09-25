@@ -71,12 +71,13 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-[color:var(--border)];
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-sans antialiased text-foreground;
+    background-color: var(--background);
     font-family: 'Roboto', sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
